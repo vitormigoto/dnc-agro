@@ -9,26 +9,29 @@
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </head>
 <body style="background-color: #F6F5FB;">
-    <nav class="navbar navbar-expand shadow-sm" style="background-color: #2A3342;">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg shadow-sm" style="background-color: #2A3342;">
+        <div class="container-fluid">           
             <a class="navbar-brand text-light" href="#">
                 <img src="./assets/images/logo.png" alt="Logo" width="30" class="d-inline-block align-text-top">
                 DNC Agro
             </a>
-            <div class="navbar-collapse navbar-expand-lg">
+            <div class="collapse navbar-collapse navbar-expand-lg text-center" id="menu">
                 <ul class="navbar-nav">
-                <li class="nav-item px-4">
-                    <a class="nav-link link-light active fw-bold" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item px-4">
-                    <a class="nav-link link-light fw-bold" href="#">Sobre</a>
-                </li>
-                <li class="nav-item px-4">
-                    <a class="nav-link link-light fw-bold" href="#">Ajuda</a>
-                </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link link-light active fw-bold" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link link-light fw-bold" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link link-light fw-bold" href="#">Ajuda</a>
+                    </li>
                 </ul>
+                <a href="" class="btn btn-light rounded-pill ms-auto">Entrar em Contato</a>
             </div>
-            <a href="" class="btn btn-light rounded-pill">Entrar em Contato</a>
+            <button class="navbar-toggler bg-light m-3" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </div> 
     </nav>
 
